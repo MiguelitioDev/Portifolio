@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+:root{
+    --cor-preta: #1A1D24;
+    --cor-ciano: #2EC4B6;
+    --cor-ciano-escuro: #287f76;
+    --cor-branca: #F0F0F0;
+    --cor-amarela-forte: #ffdd00;
+    --cor-cinza-claro: #b0b0b0;
+
+}
+
+body{
+    background-color: var(--cor-ciano-escuro);
+}
+
+.interfaçe{
+    max-width: 1380px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid var(--cor-branca);
+    border-radius: 8px;
+    color: var(--cor-branca);
+    cursor : pointer;
+}
+
+button:hover{
+    border: 2px solid var(--cor-amarela-forte);
+    color: var(--cor-amarela-forte);
+    transition: .5s;
+}
+
+h1.titulo-section{
+    font-size: 4rem;
+    color: var(--cor-branca);
+}
+
+h1.titulo-section span{
+    color: var(--cor-preta);
+}
+/* Estilo do Cabeçalho */
+
+header{
+    background-color: transparent;
+    padding: 16px 0;
+    position: fixed;
+    width: 100%;
+}
+
+header > .interfaçe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logotipo-cabecalho img{
+    width: 200px;
+}
+
+header nav.menu-desktop ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 58px;
+}
+
+header nav.menu-desktop ul li a{
+    text-decoration: none;
+    color: var(--cor-branca);
+    font-size: 1.1rem;
+    transition: .5s;
+}
+
+header nav.menu-desktop ul li a:hover{
+    color: var(--cor-amarela-forte);
+}
+
+header nav.menu-desktop ul li button{
+    width: 144px;
+    height: 48px;
+}
+
+/* Estilo da Hero */
+
+section.hero{
+   background-image: linear-gradient(to left, var(--cor-ciano) 70%, var(--cor-preta) 30%);
+   padding-top: 144px;
+}
+
+.hero > .interfaçe{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+
+}
+
+.hero .img-hero img{
+    line-height: 0;
+}
+
+.hero .txt-hero h1{
+    font-size: 3rem;
+    color: var(--cor-branca);
+}
+
+.hero .txt-hero h1 span{
+    font-size: 3rem;
+    color: var(--cor-preta);
+    display: block;
+    font-weight: 800;
+    font-size: 4rem;
+}
+.hero .txt-hero p{
+    color : var(--cor-branca);
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+    margin: 24px 0;
+}
+
+.hero .txt-hero button{
+    width: 200px;
+    height: 48px;
+    font-size: 1.1rem;
+}
+
+/* Estilo Sobre Mim */
+
+section.sobre-mim{
+    padding: 80px 0;
+}
+
+.sobre-mim > .interfaçe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 96px;
+}
+
+.sobre-mim .txt-sobre p{
+    color: var(--cor-cinza-claro);
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.sobre-mim .btn-redes button{
+    width: 56px;
+    height: 56px;
+    font-size: 24px;
+    margin-right: 8px;
+}
