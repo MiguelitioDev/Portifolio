@@ -11,7 +11,7 @@
     --cor-branca: #F0F0F0;
     --cor-amarela-forte: #ffdd00;
     --cor-cinza-claro: #b0b0b0;
-
+    --cor-ciano-claro: #0adac5;
 }
 
 body{
@@ -155,4 +155,42 @@ section.sobre-mim{
     height: 56px;
     font-size: 24px;
     margin-right: 8px;
+}
+/* Estilo da seção habilidades */
+
+section.skills{
+    background-color: var(--cor-ciano-claro);
+    padding: 80px 0;
+}
+
+.skills article{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    gap: 16px;
+    margin: 24px 0;
+}
+.skills .box-skills{
+    background-color: var(--cor-ciano-escuro);
+    padding: 24px;
+    border-radius: 16px;
+}
+.box-skills .icon-skills{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 16px;
+
+}
+.box-skills .icon-skills img{
+    max-width: 80px;
+}
+.icon-skills h2{
+    color: var(--cor-branca);
+}
+.icon-skills span{
+    color: var(--cor-preta);
+}
+.box-skills p{
+    color: var(--cor-cinza-claro);
+    text-align: justify;
 }
