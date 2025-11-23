@@ -6,16 +6,16 @@
 }
 :root{
     --cor-preta: #1A1D24;
-    --cor-ciano: #2EC4B6;
-    --cor-ciano-escuro: #287f76;
+    --cor-azul: #24C2D6;
+    --cor-azul-escuro: #0A5262;
     --cor-branca: #F0F0F0;
     --cor-amarela-forte: #ffdd00;
     --cor-cinza-claro: #b0b0b0;
-    --cor-ciano-claro: #0adac5;
+    --cor-azul-pouco-claro: #87eaf2; ;
 }
 
 body{
-    background-color: var(--cor-ciano-escuro);
+    background-color: var(--cor-azul-escuro);
 }
 
 .interfaçe{
@@ -91,7 +91,7 @@ header nav.menu-desktop ul li button{
 /* Estilo da Hero */
 
 section.hero{
-   background-image: linear-gradient(to left, var(--cor-ciano) 70%, var(--cor-preta) 30%);
+   background-image: linear-gradient(to left, var(--cor-azul) 70%, var(--cor-preta) 30%);
    padding-top: 144px;
 }
 
@@ -159,7 +159,7 @@ section.sobre-mim{
 /* Estilo da seção habilidades */
 
 section.skills{
-    background-color: var(--cor-ciano-claro);
+    background-color: var(--cor-azul);
     padding: 80px 0;
 }
 
@@ -170,7 +170,7 @@ section.skills{
     margin: 24px 0;
 }
 .skills .box-skills{
-    background-color: var(--cor-ciano-escuro);
+    background-color: var(--cor-azul-escuro);
     padding: 24px;
     border-radius: 16px;
 }
