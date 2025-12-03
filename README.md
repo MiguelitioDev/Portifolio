@@ -8,7 +8,7 @@ Este repositório contém o código-fonte do meu portfólio pessoal. O objetivo 
 
 O design foi pensado para ser moderno e direto, utilizando um layout de alto contraste para destacar as informações mais importantes.
 
-**🔗 Acesse o projeto online:** [portfolio-miguel.netlify.app](https://portfolio-miguel.netlify.app/)
+**🔗 Acesse o projeto online:** [portfolio-miguel.netlify.app](https://portifolio-miguel.netlify.app/)
 
 ## 🚀 Tecnologias Utilizadas
 
